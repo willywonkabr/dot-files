@@ -29,7 +29,8 @@
  set colorcolumn=100	" Draws a line at the given line to keep aware of the line size
  set cmdheight=2	" Give more space for displaying messages
  set encoding=utf-8	" The encoding should be utf-8 to activate the font icons
- set nobackup		" No backup files set nowritebackup	" No backup files
+ set nobackup		" No backup files
+ set nowritebackup	" No backup files
  set splitright		" Create the vertical splits to the right
  set splitbelow		" Create the horizontal splits below
  set autoread		" Update neovim after file update from outside
