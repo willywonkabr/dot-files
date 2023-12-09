@@ -4,7 +4,6 @@ Plug 'sainnhe/sonokai'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'sheerun/vim-polyglot'
-Plug 'dense-analysis/ale'
 call plug#end()
 
 
