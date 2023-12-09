@@ -5,34 +5,34 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'sheerun/vim-polyglot'
 Plug 'dense-analysis/ale'
-Plug 'windwp/nvim-autopairs'
 call plug#end()
 
 
 
 " Global Settings "
-syntax on		" Enable syntax highlight
-set nu			" Enable line numbers
-set tabstop=8        	" Show existing tab with 8 spaces width
-set softtabstop=8    	" Show existing tab with 8 spaces width
-set shiftwidth=8    	" When indenting with '>', use 8 spaces width
-set expandtab        	" On pressing tab, insert 8 spaces
-set smarttab         	" insert tabs on the start of a line according to shiftwidth
-set smartindent      	" Automatically inserts one extra level of indentation in some cases
-set hidden 		" Hides the current buffer when a new file is openned
-set incsearch		" Incremental search
-set colorcolumn=100	" Draws a line at the given line to keep aware of the line size
+syntax on               " Enable syntax highlight
+set nu                  " Enable line numbers
+set tabstop=8           " Show existing tab with 8 spaces width
+set softtabstop=8       " Show existing tab with 8 spaces width
+set shiftwidth=8        " When indenting with '>', use 8 spaces width
+set expandtab           " On pressing tab, insert 8 spaces
+set smarttab            " insert tabs on the start of a line according to shiftwidth
+set smartindent         " Automatically inserts one extra level of indentation in some cases
+set hidden              " Hides the current buffer when a new file is openned
+set incsearch           " Incremental search
+set colorcolumn=100     " Draws a line at the given line to keep aware of the line size
 set scrolloff=999       " Setting the cursor always on the middle of the screen
 set guicursor=i:block   " Cursor style block
 set cmdheight=2         " Give more space for displaying messages
-set encoding=utf-8	" The encoding should be utf-8 to activate the font icons
-set nobackup		" No backup files
-set nowritebackup	" No backup files
-set splitright		" Create the vertical splits to the right
-set splitbelow		" Create the horizontal splits below
-set autoread		" Update neovim after file update from outside
-filetype plugin on	" Load th plugin file for the file type
-filetype indent on	" Load the ident file for the file type
+set encoding=utf-8      " The encoding should be utf-8 to activate the font icons
+set nobackup            " No backup files
+set nowritebackup       " No backup files
+set splitright          " Create the vertical splits to the right
+set splitbelow          " Create the horizontal splits below
+set autoread            " Update neovim after file update from outside
+filetype plugin on      " Load th plugin file for the file type
+filetype indent on      " Load the ident file for the file type
+
 
 
 " Themes "
